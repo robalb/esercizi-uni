@@ -5,6 +5,7 @@ import java.io.*;
  * Esercizi uni
  * @author Alberto ventafridda
  * Esercitazione 2
+ * contains several exercises, decomment a block to run it
  */
 public class mixed_es2{
   public static void main(String[] args){
