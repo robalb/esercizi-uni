@@ -8,7 +8,7 @@ import java.io.*;
  * Esercizi misti esercitazione 3
  * decomment a block to execute it
  */
-public class mixed_es3{
+public class Esercitazione3_e1_e2{
   public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
 

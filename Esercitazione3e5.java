@@ -7,7 +7,7 @@ import java.io.*;
  * @author Alberto ventafridda
  * Esercizio 5 esercitazione 3
  */
-public class Eser3e5{
+public class Esercitazione3e5{
   private Scanner scanner;
 
   private class Player{
@@ -28,7 +28,7 @@ public class Eser3e5{
 
   public static void main(String[] args){
     try{
-      Eser3e5 app = new Eser3e5();
+      Esercitazione3e5 app = new Esercitazione3e5();
       app.run();
     }catch(Exception e){
       System.out.println(e.toString());

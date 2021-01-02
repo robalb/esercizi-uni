@@ -8,7 +8,7 @@ import java.io.*;
  * Esercizi misti, esercitazione 4
  * decommentare un blocco per eseguirlo
  */
-public class Mixed_es4{
+public class Esercitazione4_tutti{
   public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
 
@@ -101,8 +101,34 @@ public class Mixed_es4{
     // System.out.printf("%s %s", or.toString(), and.toString());
     
     //e7
+    // System.out.println("inserisci n >= 0");
+    // int n = scanner.nextInt();
+    // int a = 0;
+    // int b = 1;
+    // for(int i=0; i<n;i++){
+    //   int sum = a+b;
+    //   a = b;
+    //   b = sum;
+    // }
+    // System.out.println(a);
+
+    //e8
+    // System.out.println("inserisci numero >= 0");
+    // int n = scanner.nextInt();
+    // if(n <= 0) return;
+    // System.out.println("inserisci altro numero >= 0");
+    // int m = scanner.nextInt();
+    // if(m <= 0) return;
+    // System.out.printf("MCD: %d%n", MCD(m,n));
 
 
+
+  }
+  //part of e8
+  static int MCD(int m,int n){
+    if(m == n) return m;
+    if(m < n) return MCD(n,m);
+    return MCD(m-n, n);
   }
 }
 

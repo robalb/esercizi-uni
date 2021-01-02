@@ -5,15 +5,15 @@ import java.io.*;
  * Esercizi uni
  * use as cli application
  * @author Alberto ventafridda
- * Esercizio
+ * Esercitazione 3 es 6
  */
-public class Eser3e6{
+public class Esercitazione3e6{
   Scanner scanner;
 
   public static void main(String[] args){
     //scanner.next[Int|Double]();
     try{
-      Eser3e6 app = new Eser3e6();
+      Esercitazione3e6 app = new Esercitazione3e6();
       app.run();
     }catch(Exception e){
       System.out.println(e.toString());

@@ -7,7 +7,7 @@ import java.io.*;
  * Esercitazione 2
  * contains several exercises, decomment a block to run it
  */
-public class mixed_es2{
+public class Esercitazione2e5{
   public static void main(String[] args){
     //Scanner scanner = new Scanner(System.in);
     //scanner.next[Int|Double|String]();
