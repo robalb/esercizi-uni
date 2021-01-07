@@ -1,0 +1,2 @@
+https://www.geeksforgeeks.org/math-in-competitive-programming/
+https://graphics.stanford.edu/~seander/bithacks.html

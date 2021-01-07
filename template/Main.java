@@ -7,18 +7,18 @@ import java.io.*;
  * @author Alberto ventafridda
  * Esercizio
  */
-public class XX{
-  public static void main(String[] args){
-    //Scanner scanner = new Scanner(System.in);
-    //scanner.next[Int|Double]();
-    // try{
-    //   XX app = new XX();
-    //   app.run();
-    // }catch(Exception e){
-    //   System.out.println(e.toString());
-    // }
-  }
-
-  // private void run() throws Exception{
-  // }
-}
+//public class XX{
+//  public static void main(String[] args){
+//    //Scanner scanner = new Scanner(System.in);
+//    //scanner.next[Int|Double]();
+//    // try{
+//    //   XX app = new XX();
+//    //   app.run();
+//    // }catch(Exception e){
+//    //   System.out.println(e.toString());
+//    // }
+//  }
+//
+//  // private void run() throws Exception{
+//  // }
+//}
