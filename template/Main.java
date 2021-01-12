@@ -7,6 +7,7 @@ import java.io.*;
  * @author Alberto ventafridda
  * Esercizio
  */
+//to have control over the program input params, use this as template in the intellij run configuration: $Prompt$
 //public class XX{
 //  public static void main(String[] args){
 //    //Scanner scanner = new Scanner(System.in);
