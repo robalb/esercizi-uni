@@ -40,17 +40,15 @@ public class MetodiE7e3 {
     }
 
     public static int valutaOperando(String str){
-        int result = -1;
         if(str.length() != 1) {
-            System.out.println("invalid numeric literal length");
+            System.out.println("invalid literal length");
+            return -1;
         }
-        else if(str.charAt(0) < '0' || str.charAt(0) > '9'){
+        if(str.charAt(0) < '0' || str.charAt(0) > '9'){
             System.out.println("unexpected symbol, expected numeric literal");
+            return -1;
         }
-        else{
-            result = str.charAt(0) - '0';
-        }
-        return result;
+        return str.charAt(0) - '0';
     }
 
     public static int valutaEspressione(String[] args){
