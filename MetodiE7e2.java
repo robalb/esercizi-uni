@@ -11,7 +11,7 @@ import java.util.*;
 public class MetodiE7e2 {
     public static String EstraiStringaCasuale(){
         String[] dictionary = {
-                "abecedario","abate","sticazzi"
+                "abecedario","abate","cornice"
         };
         return dictionary[dictionary.length-1];
     }
