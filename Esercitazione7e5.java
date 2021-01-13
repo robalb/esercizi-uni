@@ -11,7 +11,7 @@ public class Esercitazione7e5 {
     public static void main(String[] args) {
         //global variables
         String key = "";
-        String test ="persemplicitsupponiamocheiessaggileparolechiavesianoformatesolamentedalettereminuscolenizialmentelaparolachiavenonancorastataspecificataedquindilastringavuotauttavianonsipossonocifrareoecifraremessaggiseprimanonsispecificataunaparolachiaveseutenteprovaafarloiprogrammadevestampareavideounmessaggioerrore";
+//        String test ="persemplicitsupponiamocheiessaggileparolechiavesianoformatesolamentedalettereminuscolenizialmentelaparolachiavenonancorastataspecificataedquindilastringavuotauttavianonsipossonocifrareoecifraremessaggiseprimanonsispecificataunaparolachiaveseutenteprovaafarloiprogrammadevestampareavideounmessaggioerrore";
         //ui loop
         while(true){
             int input = MetodiE7e5.sceltaMenu();
@@ -22,6 +22,10 @@ public class Esercitazione7e5 {
             else if(input == 1){
                 key = MetodiE7e5.cambiaParolaChiave(key);
             }
+            //something not related to change key
+            else if(key.length() == 0){
+                System.out.println("è necessario inserire prima una chiave");
+            }
             else if(input == 3){
                 System.out.printf("-- decifra messaggio -- %n la chiave è: %n");
                 System.out.printf("%s%ntrascrivi o incolla il tuo messaggio cifrato e premi invio:%n", key);
@@ -30,8 +34,7 @@ public class Esercitazione7e5 {
                     message = new Scanner(System.in).nextLine();
                     if(message.matches("[a-z]*"))
                         break;
-                    else
-                        System.out.println("solo lettere a-z minuscole permesse");
+                    System.out.println("solo lettere a-z minuscole permesse");
                 }while(true);
                 MetodiE7e5.decifraMessaggio(key, message);
             }
@@ -43,8 +46,7 @@ public class Esercitazione7e5 {
                     message = new Scanner(System.in).nextLine();
                     if(message.matches("[a-z]*"))
                         break;
-                    else
-                        System.out.println("solo lettere a-z minuscole permesse");
+                    System.out.println("solo lettere a-z minuscole permesse");
                 }while(true);
                 MetodiE7e5.cifraMessaggio(key, message);
             }
