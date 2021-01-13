@@ -9,8 +9,6 @@ import java.util.*;
  */
 public class Esercitazione7e1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
         while(true){
             //game
             ////////////////////////////////////////
@@ -18,7 +16,7 @@ public class Esercitazione7e1 {
             final int MAX_ATTEMPTS = 10;
             int attempts = 0;
             System.out.println("indovina il numero che ho appena estratto (è nel range da 1 a 100)");
-            System.out.printf("debug spoiler: %d", toGuess);
+//            System.out.printf("debug spoiler: %d", toGuess);
             int guess;
             //closest answer approaching answer from left
             int closestMinGuess = -1;

@@ -7,7 +7,7 @@ import java.io.*;
  * @author Alberto ventafridda
  * Esercizio 3 carta oro 2
  */
-public class CartaOro2E3{
+public class CartaOro2e3 {
   public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
     // scanner.next[Int|Double]();
