@@ -9,11 +9,12 @@ import java.util.*;
  */
 public class Esercitazione7e3 {
     public static void main(String[] args) {
-         boolean valid = MetodiE7e3.controllaValiditàEspressione(args);
-         if(!valid)return;
+        //if the expression is not valid, quit
+        if(!MetodiE7e3.controllaValiditàEspressione(args))
+            return;
 
-         int result = MetodiE7e3.valutaEspressione(args);
-
-         System.out.println(result);
+        //print the result of the evaluated expression
+        int result = MetodiE7e3.valutaEspressione(args);
+        System.out.println(result);
     }
 }
