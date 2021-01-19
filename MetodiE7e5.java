@@ -77,11 +77,15 @@ public class MetodiE7e5 {
     public static char decifraLettera(char messageC, char keyC, char[][] matrice){
         int columnIndex = keyC - 'a';
         int i;
+        //lazy hack, the original code(commented below) has a bug and i'm too lazy to fix it
         for (i = 0; i < 26; i++) {
             if(matrice[i][columnIndex] == messageC){
                 break;
             }
         }
+//        int a = matrice[0][columnIndex];
+//        if(a > messageC) i = a - messageC;
+//        else i = messageC - a;
         return matrice[i][0];
     }
 }
